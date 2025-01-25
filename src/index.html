@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Add FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-    <h1>Patch 1.0.0</h1>
-</body>
+  <!-- Header with sticky navigation and theme toggle -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Theme toggle button -->
+    <button id="theme-toggle">
+      <i class="fas fa-moon"></i> <!-- Default to light mode (moon icon) -->
+    </button>
+  </header>
 
+  <!-- Main content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Hello, I'm [Your Name]</h1>
+      <p>I'm a frontend developer passionate about creating clean, responsive, and user-friendly web experiences.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>A brief description of Project 1.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>A brief description of Project 2.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>A brief description of Project 3.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com" target="_blank">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://facebook.com/yourprofile" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
